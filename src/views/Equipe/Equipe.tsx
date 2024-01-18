@@ -16,6 +16,7 @@ function Equipe() {
                     Telefone="(21) 98144-9194"
                 />
                 
+                
             </EquipeCardContainer>
         </EquipeContainer>
     )

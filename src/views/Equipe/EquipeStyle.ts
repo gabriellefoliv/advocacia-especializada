@@ -2,7 +2,9 @@ import styled from "styled-components";
 
 export const EquipeContainer = styled.div`
     /* background-color: var(--terciary-color); */
-    padding: 30px 20px;
+    /* padding: 30px 20px; */
+    margin-top: 30px;
+    
 `;
 
 export const EquipeTitle = styled.h1`

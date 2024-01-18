@@ -16,6 +16,9 @@ function Header() {
                     <Li>
                         <Tab href='/areasdeatuacao'>Áreas de Atuação</Tab>
                     </Li>
+                    <Li>
+                        <Tab href='/contato'>Contato</Tab>
+                    </Li>
                 </Ul>
             </HeaderNav>
         </HeaderContainer>

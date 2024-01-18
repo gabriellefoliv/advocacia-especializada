@@ -6,6 +6,7 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
         list-style: none;
+        
     }
 
     :root {
@@ -15,8 +16,9 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-            /* background-color: var(--terciary-color); */
+        /* background-color: var(--primary-color); */
         font-family: 'Roboto', sans-serif;
+        overflow-x: hidden;
 
     }
 `;

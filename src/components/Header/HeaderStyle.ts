@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
-    background-color: var(--primary-color);
+    background-color: #fff;
     width: 100%;
     height: 80px;
     display: flex;
@@ -9,6 +9,7 @@ export const HeaderContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     z-index: 50;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
     
    
 `;
@@ -37,9 +38,10 @@ export const Li = styled.li`
 `;
 
 export const Tab = styled.a`
-    color: #fff;
+    color: var(--primary-color);
     text-decoration: none;
-
+    font-weight: 600;
+    font-size: 18px;
     &:hover {
         opacity: 0.5;
         transition: 0.5s;

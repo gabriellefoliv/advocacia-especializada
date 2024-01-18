@@ -26,30 +26,21 @@ export const AdvImg = styled.img`
 export const AdvName = styled.h3`
     text-align: center;
     margin-top: -5px;
+    margin-bottom: 5px;
 `;
 
-export const AtuacaoContainer = styled.div`
+export const Container = styled.div`
     display: flex;
     justify-content: center;
+    margin-top: 5px;
+    padding: 8px 0;
 `;
 
-export const AdvAtuacao = styled.p`
-  
+export const Tag = styled.p`
+    margin-left: 5px;
 `;
 
-export const AtuacaoTitle = styled.p`
+export const Title = styled.p`
     font-weight: 600;
 `;
 
-export const TelefoneContainer = styled.div`
-    display: flex;
-    justify-content: center;
-`;
-
-export const TelefoneTitle = styled.p`
-    font-weight: 600;
-`;
-
-export const AdvTelefone = styled.p`
-  
-`;
