@@ -42,6 +42,10 @@ export const Hero  = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    /* @media (min-width: 640px) {
+        display
+    } */
     
     
 `;
@@ -63,6 +67,10 @@ export const TextGroup = styled.div`
     align-items: center;
     justify-content: center;
     margin-top: 40px;
+
+    @media (max-width: 1024px) {
+        display: none;
+    }
    
 `;
 
@@ -184,4 +192,11 @@ export const LastContainer = styled.div`
     align-items: center;
     margin-top: 80px;
     margin-bottom: 100px;
+
+    @media (max-width: 950px) {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+        
+    }
 `;

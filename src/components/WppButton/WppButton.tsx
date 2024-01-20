@@ -5,10 +5,10 @@ import Whatsapp from '../../img/whatsapp.png'
 
 function WppButton() {
     return (
-        <Button>
-            <ButtonContainer>
+        <Button href="https://wa.me/message/V72SURNAJ3EKD1">
+            <ButtonContainer >
                 <ButtonImg src={Whatsapp}/>
-                <ButtonText>Tenha um atendimento personalizado</ButtonText>
+                <ButtonText >Tenha um atendimento personalizado</ButtonText>
             </ButtonContainer>
         </Button>
     )

@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { ContactContainer, ContactSubtitle, ContactTextGroup, ContactTitle, FormContainer, StyledButton, StyledForm, StyledInput, StyledLabel, StyledTextarea } from "./ContatoStyle"
 import emailjs from '@emailjs/browser';
 
@@ -8,11 +8,9 @@ import emailjs from '@emailjs/browser';
 
 function Contato() {
 
-
     const form = useRef<HTMLFormElement>(null!);
 
-    const sendEmail = (e: React.FormEvent<HTMLFormElement>): void => {
-        e.preventDefault();
+    const sendEmail = () => {
 
         emailjs.sendForm('service_c6sj2kt', 'template_og52wc6', form.current, 'yeusvRmqeLwWt2Z2T')
             .then((result) => {
@@ -43,6 +41,7 @@ function Contato() {
                         <StyledLabel>Mensagem</StyledLabel>
                         <StyledTextarea name="message" required/>
                         <StyledButton className="sending" type="submit">Enviar</StyledButton>
+                        {/* <Message id="success">Mensagem enviada com sucesso!</Message> */}
                     </StyledForm>
                 </FormContainer>
               
@@ -52,3 +51,6 @@ function Contato() {
 }
 
 export default Contato
+
+// const sendEmail = (e: React.FormEvent<HTMLFormElement>): void => {
+//     e.preventDefault();

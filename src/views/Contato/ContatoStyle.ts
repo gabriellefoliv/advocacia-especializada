@@ -4,8 +4,8 @@ export const ContactContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    margin-right: 350px;
+    margin: 10px 20px;
+
 `;
 
 export const ContactTextGroup = styled.div`
@@ -33,7 +33,8 @@ export const FormContainer = styled.div`
     padding: 10px;
     display: flex;
     justify-content: flex-start;
-    margin-right: 350px;
+    margin-top: 30px;
+
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 `;
 
@@ -72,6 +73,15 @@ export const StyledButton = styled.button`
     text-decoration: none;
     border: none;
     background-color: var(--secondary-color);
+    font-weight: 800;
+
+
+    &:hover {
+        background-color: var(--primary-color);
+        transition: 0.5s;
+        color: #fff;
+
+    }
     
 `;
 
@@ -82,6 +92,17 @@ export const StyledTextarea = styled.textarea`
     margin: 12px 0;
     padding: 20px;
     display: block;
+
+`;
+
+export const Message = styled.h1`
+    width: 100%;
+    position: relative;
+    margin-bottom: 60px;
+    display: none;
+    font-size: 20px;
+    color: var(--primary-color);
+    animation: buttons .3s linear;
 
 `;
 

@@ -9,10 +9,19 @@ export const SobreMimContainer = styled.div`
     -webkit-box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.25);
     -moz-box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.25);
     box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.25);
+
+    @media (max-width: 950px) {
+        display: flex;
+        flex-direction: column;
+    }
 `;
 
 export const SobreMimImg = styled.img`
     width: 400px;
+
+    @media (max-width: 1024px) {
+        transform: scale(0.8);
+    }
     
 `;
 
@@ -22,13 +31,24 @@ export const SobreMimTextGroup = styled.div`
     display: flex;
     flex-direction: column;
     text-align: justify;
+
+    @media (max-width: 1024px) {
+        padding: 5px;
+        margin: 0px;
+    }
+    
     
 `;
 
 export const SobreMimText = styled.p`
     opacity: 0.7;
     font-weight: 600;
-    padding: 8px 0;
+    padding: 4px 0;
+
+    @media (max-width: 1024px) {
+        font-size: 14px;
+        padding: 4px;
+    }
 `;
 
 export const SobreMimTitle = styled.h1`

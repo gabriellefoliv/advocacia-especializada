@@ -1,7 +1,10 @@
 import styled from "styled-components";
 
 export const AreaHomeContainer = styled.div`
-    
+
+    @media (max-width: 950px) {
+        margin: 0;
+    }
 `;
 
 export const AreaHomeTitle = styled.h1`

@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const AreaCardContainer = styled.a`
-    width: 300px;
-    height: 100px;
+    width: 320px;
+    height: 105px;
     background-color: #fff;
     /* border-radius: 10px; */
     -webkit-box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.25);

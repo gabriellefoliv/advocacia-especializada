@@ -1,4 +1,4 @@
-import { AboutUs, Banner, HomeContainer, Hero, Text, Wrapper, LogoContainer, Logo, TextGroup, Buttons, ButtonEquipe, LastContainer } from "./HomeStyle"
+import { AboutUs, Banner, HomeContainer, Hero, Text, Wrapper, LogoContainer, Logo, TextGroup, Buttons, LastContainer } from "./HomeStyle"
 // import Law from '../../img/thamifoto.png'
 import Law from '../../img/videos/ultima.mp4'
 import AdvLogo from '../../img/advbold.png'
@@ -31,7 +31,6 @@ function Home() {
                             solução dos seus problemas.
                             </AboutUs>
                         <Buttons>
-                            <ButtonEquipe>Junte-se a Equipe</ButtonEquipe>
                             <WppButton/>
                         </Buttons>
                         </TextGroup>
@@ -53,6 +52,8 @@ function Home() {
             <ButtonHolder>
                 <WppButton/>
             </ButtonHolder>
+
+            
 
         
         </>

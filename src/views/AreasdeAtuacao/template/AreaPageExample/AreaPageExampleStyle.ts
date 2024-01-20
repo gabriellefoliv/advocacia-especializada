@@ -25,16 +25,37 @@ export const APContainer = styled.div`
     box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.25);
     border: none;
     display: flex;
+
+    @media (max-width: 1024px) {
+        display: flex;
+        flex-direction: column;
+    }
 `;
 
 export const APImg = styled.img`
     width: 550px;
     border-radius: 1%;
     object-fit: cover;
+
+    margin: 10px 20px;
+    border-radius: 20px;
+    object-fit: cover;
+    padding: 10px 20px;
+    background: #fcf6f9;
+    border: 2px solid #ffffff;
+    box-shadow: 0px 1px 17px rgba(0,0,0,0.06);
+
+    display: flex;
+    justify-content: center;
+
+    @media (max-width: 764px) {
+        width: 90%;
+        
+    }
 `;
 
 export const APSobreContainer = styled.div`
-  
+
 `;
 
 export const APSobre = styled.p`

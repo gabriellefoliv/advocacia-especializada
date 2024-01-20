@@ -20,7 +20,6 @@ function Equipe() {
                     hrefEmail="https://www.github.com/gabriellefoliv"
                 />
                 
-                
             </EquipeCardContainer>
         </EquipeContainer>
     )
