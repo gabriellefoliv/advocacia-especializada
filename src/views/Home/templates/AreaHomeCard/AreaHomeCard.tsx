@@ -3,15 +3,16 @@ import { AreaHomeCardButton, AreaHomeCardDiv, AreaHomeCardImg, AreaHomeCardTitle
 interface AreaHomeProps {
     AreaHomeImg: any
     AreaHomeTitle: string
+    hrefHomeCard: string
 }
 
-function AreaHomeCard({AreaHomeImg, AreaHomeTitle}:AreaHomeProps) {
+function AreaHomeCard({AreaHomeImg, AreaHomeTitle, hrefHomeCard}:AreaHomeProps) {
     return (
-        <AreaHomeCardDiv>
+        <AreaHomeCardDiv href={hrefHomeCard}>
             <AreaHomeCardImg src={AreaHomeImg}/>
             <AreaHomeTextGroup>
                 <AreaHomeCardTitle>{AreaHomeTitle}</AreaHomeCardTitle>
-                <AreaHomeCardButton href="/areasdeatuacao">Saiba mais</AreaHomeCardButton>
+                <AreaHomeCardButton>Saiba mais</AreaHomeCardButton>
             </AreaHomeTextGroup>
         </AreaHomeCardDiv>
     )

@@ -3,8 +3,17 @@ import styled from "styled-components";
 export const EquipeContainer = styled.div`
     /* background-color: var(--terciary-color); */
     /* padding: 30px 20px; */
-    margin-top: 30px;
     
+`;
+
+export const EquipeTextGroup = styled.div`
+    background-color: var(--primary-color);
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
 `;
 
 export const EquipeTitle = styled.h1`
@@ -13,11 +22,13 @@ export const EquipeTitle = styled.h1`
 
 export const SubTitle = styled.p`
     text-align: center;
-    color: gray;
+    color: #fff;
 `;
 
 export const EquipeCardContainer = styled.div`
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 `;
 
 export const List = styled.ul`

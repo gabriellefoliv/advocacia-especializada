@@ -1,4 +1,4 @@
-import { Container, AdvImg, AdvName, Tag, CardContainer, Title } from "./EquipeCardStyle"
+import { Container, AdvImg, AdvName, Tag, CardContainer, Title, EquipeWpp, EquipeEmail } from "./EquipeCardStyle"
 
 
 interface CardProps {
@@ -6,10 +6,12 @@ interface CardProps {
     Nome: string
     Atuacao: string
     Telefone: string
+    hrefWpp: string
+    hrefEmail: string
 }
 
 
-function EquipeCard({Img, Nome, Atuacao, Telefone}:CardProps) {
+function EquipeCard({Img, Nome, Atuacao, Telefone, hrefWpp, hrefEmail}:CardProps) {
     return (
         <CardContainer>
             <AdvImg src={Img}/>
@@ -21,6 +23,10 @@ function EquipeCard({Img, Nome, Atuacao, Telefone}:CardProps) {
             <Container>
                 <Title>Telefone: </Title>
                 <Tag> {Telefone}</Tag>
+            </Container>
+            <Container>
+                <EquipeWpp href={hrefWpp}>WhatsApp</EquipeWpp>
+                <EquipeEmail href={hrefEmail}>Email</EquipeEmail>
             </Container>
             
         </CardContainer>

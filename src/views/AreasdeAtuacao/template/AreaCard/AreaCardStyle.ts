@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-export const AreaHomeCardDiv = styled.a`
-    width: 450px;
+export const AreaCardContainer = styled.a`
+    width: 300px;
     height: 100px;
     background-color: #fff;
     /* border-radius: 10px; */
@@ -33,9 +33,11 @@ export const AreaHomeCardDiv = styled.a`
         transform-origin: 50% 100%;
     }
     
+  
+
 `;
 
-export const AreaHomeCardImg = styled.img`
+export const AreaCardImg = styled.img`
     width: 90px;
     height: 90px;
     border-radius: 5%;
@@ -48,7 +50,7 @@ export const AreaHomeCardImg = styled.img`
 
 `;
 
-export const AreaHomeCardTitle = styled.h1`
+export const AreaCardTitle = styled.h1`
     padding: 5px 0;
     color: var(--primary-color);
     font-size: 18px;
@@ -56,27 +58,24 @@ export const AreaHomeCardTitle = styled.h1`
     &:hover {
         color: var(--terciary-color);
     }
-    
-
 `;
 
-export const AreaHomeCardButton = styled.button`
+export const AreaCardMais = styled.button`
+    
     padding: 7px;
     border: none;
     background-color: var(--terciary-color);
     color: #fff;
     font-weight: 600;
     cursor: pointer;
-    width: 120px;
+
     &:hover {
         opacity: 0.5;
         transition: 0.5s;
     }
 `;
 
-export const AreaHomeTextGroup = styled.div`
-    display: flex;
-    flex-direction: column;
+export const AreaCardGroup = styled.div`
     margin-left: 10px;
-    padding: 20px;
+
 `;

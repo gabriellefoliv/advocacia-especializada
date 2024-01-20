@@ -5,7 +5,7 @@ import { FooterContainer, FooterTitle } from "./FooterStyle"
 function Footer() {
     return (
         <FooterContainer>
-            <FooterTitle>Copyright © 2023 All Rights Reserved.</FooterTitle>
+            <FooterTitle>Copyright © 2024 All Rights Reserved.</FooterTitle>
         </FooterContainer>
     )
 }
