@@ -24,7 +24,11 @@ export const AreaSubTitle = styled.p`
     color: #fff;
     text-align: center;
 
+    
+
 `;
+
+
 
 export const AreaCardContainerSup = styled.div`
     display: flex;
@@ -46,6 +50,16 @@ export const AreaCardContainerSup = styled.div`
         gap: .5vw;
 
     }
+
+    @keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+    }
+    animation: 1s ease-out 0s 1 slideInLeft;
 `;
 
 export const AreaButton = styled.div`

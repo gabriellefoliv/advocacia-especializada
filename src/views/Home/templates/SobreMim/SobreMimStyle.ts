@@ -14,6 +14,8 @@ export const SobreMimContainer = styled.div`
         display: flex;
         flex-direction: column;
     }
+
+
 `;
 
 export const SobreMimImg = styled.img`

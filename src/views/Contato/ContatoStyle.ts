@@ -50,7 +50,6 @@ export const StyledForm = styled.form`
 
 export const StyledLabel = styled.label`
     font-weight: 600;
-    
 `;
 
 export const StyledInput = styled.input`
@@ -75,12 +74,10 @@ export const StyledButton = styled.button`
     background-color: var(--secondary-color);
     font-weight: 800;
 
-
     &:hover {
         background-color: var(--primary-color);
         transition: 0.5s;
         color: #fff;
-
     }
     
 `;
@@ -92,7 +89,6 @@ export const StyledTextarea = styled.textarea`
     margin: 12px 0;
     padding: 20px;
     display: block;
-
 `;
 
 export const Message = styled.h1`
@@ -103,6 +99,5 @@ export const Message = styled.h1`
     font-size: 20px;
     color: var(--primary-color);
     animation: buttons .3s linear;
-
 `;
 
