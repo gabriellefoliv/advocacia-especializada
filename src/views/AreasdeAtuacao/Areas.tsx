@@ -8,9 +8,7 @@ import DCivil from '../../img/direito_civil_foto.jpg'
 import DConsumidor from '../../img/direito-consumidor.jpg'
 import DCriminal from '../../img/direitocriminal.jpg'
 import DFamilia from '../../img/direitodefamilia.jpg'
-import DImobiliario from '../../img/direitoimobiliario.jpg'
 import DPrevidenciario from '../../img/direitoprevidenciario.jpg'
-import DSucessoes from '../../img/direitosucessoes.jpg'
 
 function Areas() {
     return (
@@ -46,20 +44,11 @@ function Areas() {
                     ACTitle="Direito Criminal"
                     ACImg={DCriminal}
                 />
-                <AreaCard
-                    AChref="/areasdeatuacao/imobiliario"
-                    ACTitle="Direito Imobiliário"
-                    ACImg={DImobiliario}
-                />
-                <AreaCard
-                    AChref="/areasdeatuacao/familia"
-                    ACTitle="Direito de Família"
-                    ACImg={DFamilia}
-                />
+        
                 <AreaCard
                     AChref="/areasdeatuacao/sucessoes"
-                    ACTitle="Direito de Sucessões"
-                    ACImg={DSucessoes}
+                    ACTitle="Direito de Família e Sucessões"
+                    ACImg={DFamilia}
                 />
                 <AreaCard
                     AChref="/areasdeatuacao/militar"

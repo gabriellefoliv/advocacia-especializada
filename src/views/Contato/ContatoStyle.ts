@@ -34,7 +34,7 @@ export const FormContainer = styled.div`
     display: flex;
     justify-content: flex-start;
     margin-top: 30px;
-
+    margin-bottom: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 `;
 
@@ -91,13 +91,52 @@ export const StyledTextarea = styled.textarea`
     display: block;
 `;
 
-export const Message = styled.h1`
-    width: 100%;
-    position: relative;
-    margin-bottom: 60px;
-    display: none;
-    font-size: 20px;
-    color: var(--primary-color);
-    animation: buttons .3s linear;
-`;
+// export const Message = styled.h1`
+//     width: 100%;
+//     position: relative;
+//     margin-bottom: 60px;
+//     display: flex;
+//     justify-content: center;
+// `;
+
+// export const Success = styled.div`
+//     font-size: 20px;
+//     color: green;
+//     position: absolute;
+//     animation: buttons .3s linear;
+//     display: none;
+
+//     @keyframes buttons{
+//     0%{
+//         transform: scale(0.1);
+//     }
+//     50%{
+//         transform: scale(0.5);
+//     }
+//     100%{
+//         transform: scale(1);
+//     }
+// }
+// `;
+
+// export const Danger = styled.div`
+//     font-size: 20px;
+//     color: red;
+//     position: absolute;
+//     transition: .3s;
+//     animation: buttons .3s linear;
+//     display: none;
+
+//     @keyframes buttons{
+//     0%{
+//         transform: scale(0.1);
+//     }
+//     50%{
+//         transform: scale(0.5);
+//     }
+//     100%{
+//         transform: scale(1);
+//     }
+// }
+// `;
 

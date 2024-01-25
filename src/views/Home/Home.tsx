@@ -7,6 +7,7 @@ import Atendimento from "./templates/Atendimento/Atendimento"
 import WppButton from "../../components/WppButton/WppButton"
 import { ButtonHolder } from "../AreasdeAtuacao/template/AreaPageExample/AreaPageExampleStyle"
 import SobreMim from "./templates/SobreMim/SobreMim"
+import Aluguel from "./templates/Aluguel/Aluguel"
 
 function Home() {
     return (
@@ -53,7 +54,7 @@ function Home() {
                 <WppButton/>
             </ButtonHolder>
 
-            
+            <Aluguel/>
 
         
         </>

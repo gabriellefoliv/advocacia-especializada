@@ -10,13 +10,14 @@ function Contato() {
 
     const form = useRef<HTMLFormElement>(null!);
 
-    const sendEmail = () => {
+    const sendEmail = (e: React.FormEvent<HTMLFormElement>): void => {
+        e.preventDefault();
 
         emailjs.sendForm('service_c6sj2kt', 'template_og52wc6', form.current, 'yeusvRmqeLwWt2Z2T')
             .then((result) => {
                 console.log(result.text);
-                console.log('message sent');
-                console.log(form.current);
+                alert("Mensagem enviada com sucesso!");
+                window.location.reload();
             }, (error) => {
                 console.log(error.text);
             });
@@ -41,16 +42,11 @@ function Contato() {
                         <StyledLabel>Mensagem</StyledLabel>
                         <StyledTextarea name="message" required/>
                         <StyledButton className="sending" type="submit">Enviar</StyledButton>
-                        {/* <Message id="success">Mensagem enviada com sucesso!</Message> */}
                     </StyledForm>
                 </FormContainer>
-              
             </ContactContainer>
         </>
     )
 }
 
 export default Contato
-
-// const sendEmail = (e: React.FormEvent<HTMLFormElement>): void => {
-//     e.preventDefault();

@@ -17,8 +17,8 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         /* background-color: var(--primary-color); */
-        /* font-family: 'Roboto', sans-serif; */
-        font-family: 'Playfair Display', serif;
+        font-family: 'Roboto', sans-serif;
+        /* font-family: 'Playfair Display', serif; */
         overflow-x: hidden;
 
     }

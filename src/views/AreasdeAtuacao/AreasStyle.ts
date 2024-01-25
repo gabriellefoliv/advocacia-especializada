@@ -23,12 +23,7 @@ export const AreaTitle = styled.h1`
 export const AreaSubTitle = styled.p`
     color: #fff;
     text-align: center;
-
-    
-
 `;
-
-
 
 export const AreaCardContainerSup = styled.div`
     display: flex;
@@ -53,10 +48,11 @@ export const AreaCardContainerSup = styled.div`
 
     @keyframes slideInLeft {
     0% {
-        transform: translateX(-100%);
+        transform: translateY(100%);
+        opacity: 0.2;
     }
     100% {
-        transform: translateX(0);
+        transform: translateY(0);
     }
     }
     animation: 1s ease-out 0s 1 slideInLeft;

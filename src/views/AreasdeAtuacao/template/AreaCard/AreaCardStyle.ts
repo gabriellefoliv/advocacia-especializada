@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const AreaCardContainer = styled.a`
     width: 320px;
-    height: 105px;
+    height: 115px;
     background-color: #fff;
     /* border-radius: 10px; */
     -webkit-box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.25);
@@ -13,7 +13,7 @@ export const AreaCardContainer = styled.a`
     justify-content: flex-start;
     align-items: center;
     margin-bottom: 0px;
-    margin-top: 30px;
+    margin-top: 50px;
     text-decoration: none;
 
     &:hover {
