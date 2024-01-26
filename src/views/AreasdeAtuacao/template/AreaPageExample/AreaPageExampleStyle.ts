@@ -11,7 +11,7 @@ export const APHeader = styled.div`
 `;
 
 export const APTitle = styled.h1`
-  
+    text-align: center;
 `;
 
 

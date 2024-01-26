@@ -8,12 +8,24 @@ export const FooterContainer = styled.div`
     align-items: center;
     width: 100%;
     height: 240px;
+
+    @media (max-width: 900px) {
+        
+    }
+
+    
 `;
 
 export const FooterLogo = styled.img`
     width: 400px;
     object-fit: cover;
     margin-top: -55px;
+
+    @media (max-width: 640px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 `;
 
 export const FooterColumn = styled.div`
@@ -22,6 +34,11 @@ export const FooterColumn = styled.div`
     padding: 0 20px;
     margin: 0 60px;
     color: #fff;
+
+    @media (max-width: 640px) {
+        margin: 0;
+    }
+    
 
 `;
 
@@ -32,6 +49,10 @@ export const FooterShortcut = styled.a`
     cursor: pointer;
     padding: 1px 10px;
     margin-bottom: 6px;
+
+    @media (max-width: 640px) {
+        display: none;
+    }
     
 `;
 
@@ -44,6 +65,10 @@ export const FooterTitle = styled.p`
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
+
+    @media (max-width: 640px) {
+        display: none;
+    }
 `;
 
 export const List = styled.ul`
@@ -65,11 +90,18 @@ export const List = styled.ul`
     .socialMediaImg {
         svg path {
             transition: fill 0.5s ease-in-out;
+            
         }
 
         &:hover svg path {
         fill: var(--secondary-color);
         }
+    }
+
+    @media (max-width: 640px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 `
 
@@ -93,5 +125,9 @@ export const CopyrightTitle = styled.p`
         &:hover {
             opacity: 0.5;
         }
+    }
+
+    @media (max-width: 620px) {
+        font-size: 12px;
     }
 `;

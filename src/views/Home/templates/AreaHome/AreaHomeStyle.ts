@@ -5,6 +5,10 @@ export const AreaHomeContainer = styled.div`
     @media (max-width: 950px) {
         margin: 0;
     }
+
+    @media (max-width: 640px) {
+        
+    }
 `;
 
 export const AreaHomeTitle = styled.h1`
@@ -30,12 +34,21 @@ export const AreaHomeTitle = styled.h1`
             background-position-x: 0%;
         }
     }
+
+    @media (max-width: 640px) {
+        margin: 0;
+        margin-top: 50px;
+    }
 `;
 
 export const AreaHomeCardContainer = styled.div`
     display: flex;
     flex-direction: column;
     margin-left: 80px;
+
+    @media (max-width: 640px) {
+        margin: 0;
+    }
 `;
 
 export const TodasAreas = styled.a`

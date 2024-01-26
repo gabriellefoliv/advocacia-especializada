@@ -23,6 +23,12 @@ export const SobreMimImg = styled.img`
     @media (max-width: 1024px) {
         transform: scale(0.8);
     }
+
+    @media (max-width: 640px) {
+        transform: scale(0.6);
+        margin-top: -110px;
+        
+    }
 `;
 
 export const SobreMimTextGroup = styled.div`
@@ -35,6 +41,10 @@ export const SobreMimTextGroup = styled.div`
     @media (max-width: 1024px) {
         padding: 5px;
         margin: 0px;
+    }
+
+    @media (max-width: 640px) {
+        margin-top: -70px;
     }
 `;
 
