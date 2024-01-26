@@ -7,6 +7,24 @@ export const CardContainer = styled.div`
     margin: 30px 70px;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+
+    &:hover {
+        /* box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.7); */
+        transition: 0.3s;
+        /* transform: translate(2.5px, 0) rotate(2.5deg) scale(1.1); */
+        transform: scale(1.01);
+        
+        &:before { transform: translate(-2.5px, 0) rotate(-2.5deg); }
+        &:after { transform: translate(-5px, 0) rotate(-5deg); }
+        
+    }
+    transform-origin: center bottom;
+    
+    &:before,
+    &:after {
+        transform-origin: 50% 100%;
+    }
 `;
 
 export const AdvImg = styled.img`
@@ -83,13 +101,13 @@ export const EquipeWpp = styled.a`
     }
 
     &:focus {
-        background-color: #fb8332;
+        background-color: var(--terciary-color);
         box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 
     }
 
     &:active {
-        background-color: #c85000;
+        background-color: var(--terciary-color);
         box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
         transform: translateY(0);
     }
@@ -136,13 +154,13 @@ export const EquipeEmail = styled.a`
     }
 
     &:focus {
-        background-color: #fb8332;
+        background-color: var(--terciary-color);
         box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 
     }
 
     &:active {
-        background-color: #c85000;
+        background-color: var(--terciary-color);
         box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
         transform: translateY(0);
     }

@@ -40,13 +40,13 @@ export const Button = styled.a`
     }
 
     &:focus {
-        background-color: #fb8332;
+        background-color: var(--terciary-color);
         box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 
     }
 
     &:active {
-        background-color: #c85000;
+        background-color: var(--terciary-color);
         box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
         transform: translateY(0);
     }

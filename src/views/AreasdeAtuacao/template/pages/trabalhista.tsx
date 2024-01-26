@@ -10,7 +10,15 @@ function Trabalhista() {
             <AreaPageExample 
                 ETitle="Direito do Trabalho" 
                 EImg={Trabalho} 
-                EText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                EText={[
+                    "  Contencioso Trabalhista:\n",
+                    "✓ Reclamações individuais;\n",
+                    "✓ Ações coletivas e ações civis públicas propostas por sindicatos e pelo Ministério Público do Trabalho (MPT);\n",
+                    "✓ Processos administrativos decorrentes de fiscalização do Ministério Público do Trabalho e Ministério do Trabalho e Emprego;\n",
+                    "✓ Acompanhamento personalizado em todos os Tribunais;\n",
+                    "✓ Elaboração de relatórios gerenciais com dados processuais e estatísticos para acompanhamento, avaliação e gerenciamento do contencioso trabalhista;\n",
+                    "✓ Gestão estratégica de conflitos e negociações coletivas.\n",
+                ]}
             />
             <ButtonHolder>
                 <WppButton/>

@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const AreaContainer = styled.div`
     /* padding: 20px; */
     /* margin-top: 30px; */
+    margin-bottom: 70px;
 `;
 
 export const AreaTextGroup = styled.div`
@@ -46,6 +47,7 @@ export const AreaCardContainerSup = styled.div`
 
     }
 
+    animation: 1s ease-out 0s 1 slideInLeft;
     @keyframes slideInLeft {
     0% {
         transform: translateY(100%);
@@ -55,7 +57,6 @@ export const AreaCardContainerSup = styled.div`
         transform: translateY(0);
     }
     }
-    animation: 1s ease-out 0s 1 slideInLeft;
 `;
 
 export const AreaButton = styled.div`

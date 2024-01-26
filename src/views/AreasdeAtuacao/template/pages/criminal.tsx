@@ -10,7 +10,19 @@ function Criminal() {
             <AreaPageExample 
                 ETitle="Direito Criminal " 
                 EImg={CriminalImg} 
-                EText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                EText={[
+                    "✓ Crimes contra a honra e a pessoa;\n",
+                    "✓ Defesa em Inquérito Policial;\n",
+                    "✓ Habeas Corpus;\n",
+                    "✓ Acompanhamento em Delegacia;\n",
+                    "✓ Maria da Penha;\n",
+                    "✓ Crimes contra o Patrimônio;\n",
+                    "✓ Crimes contra a Dignidade Sexual;\n",
+                    "✓ Pedido de Liberdade Provisória;\n",
+                    "✓ Estelionato;\n",
+                    "✓ Prisão Preventiva;\n",
+                    "✓ Crimes contra a Administração Pública.\n",
+                ]}
             />
             <ButtonHolder>
                 <WppButton/>

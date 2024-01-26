@@ -55,13 +55,18 @@ export const APImg = styled.img`
 `;
 
 export const APSobreContainer = styled.div`
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 `;
 
 export const APSobre = styled.p`
     padding: 0 20px;
     text-align: justify;
     color: gray;
+    white-space: pre-line;
+
 `;
 
 export const ButtonHolder = styled.div`

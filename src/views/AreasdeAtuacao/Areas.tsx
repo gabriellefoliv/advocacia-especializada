@@ -46,7 +46,7 @@ function Areas() {
                 />
         
                 <AreaCard
-                    AChref="/areasdeatuacao/sucessoes"
+                    AChref="/areasdeatuacao/familia"
                     ACTitle="Direito de Família e Sucessões"
                     ACImg={DFamilia}
                 />

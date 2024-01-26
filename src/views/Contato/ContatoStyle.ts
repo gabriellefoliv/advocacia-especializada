@@ -6,6 +6,14 @@ export const ContactContainer = styled.div`
     align-items: center;
     margin: 10px 20px;
 
+    @media (max-width: 1210px) {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
 `;
 
 export const ContactTextGroup = styled.div`
@@ -29,13 +37,24 @@ export const ContactSubtitle = styled.p`
 
 export const FormContainer = styled.div`
     width: 700px;
-    height: 450px;
+    height: 500px;
     padding: 10px;
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
     margin-top: 30px;
     margin-bottom: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    @media (max-width: 740px) {
+        transform: scale(0.8);
+    }
+
+    @media (max-width: 525px) {
+        transform: scale(0.5);
+        margin-top: -100px;
+    }
+    
 `;
 
 
@@ -140,3 +159,26 @@ export const StyledTextarea = styled.textarea`
 // }
 // `;
 
+export const ContactImg = styled.img`
+    width: 600px;
+    margin-right: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+
+
+    @media (max-width: 650px) {
+        display: none;
+
+    }
+`;
+
+export const StyledTitle = styled.h1`
+    text-align: center;
+    margin-top: 15px;
+`;
+
+export const StyledBackground = styled.div`
+
+`;

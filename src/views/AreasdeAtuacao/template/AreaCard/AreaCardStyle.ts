@@ -15,12 +15,13 @@ export const AreaCardContainer = styled.a`
     margin-bottom: 0px;
     margin-top: 50px;
     text-decoration: none;
+    transition: 0.3s;
 
     &:hover {
         box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.7);
         transition: 0.3s;
         /* transform: translate(2.5px, 0) rotate(2.5deg) scale(1.1); */
-        transform: scale(1.1);
+        transform: scale(1.09);
         
         &:before { transform: translate(-2.5px, 0) rotate(-2.5deg); }
         &:after { transform: translate(-5px, 0) rotate(-5deg); }
@@ -68,10 +69,11 @@ export const AreaCardMais = styled.button`
     color: #fff;
     font-weight: 600;
     cursor: pointer;
+    transition: 0.3s;
 
     &:hover {
         opacity: 0.5;
-        transition: 0.5s;
+        transition: 0.3s;
     }
 `;
 

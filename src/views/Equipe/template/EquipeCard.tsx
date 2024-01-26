@@ -25,8 +25,8 @@ function EquipeCard({Img, Nome, Atuacao, Telefone, hrefWpp, hrefEmail}:CardProps
                 <Tag> {Telefone}</Tag>
             </Container>
             <Container>
-                <EquipeWpp href={hrefWpp}>WhatsApp</EquipeWpp>
-                <EquipeEmail href={hrefEmail}>Email</EquipeEmail>
+                <EquipeWpp href={hrefWpp} target="_blank">WhatsApp</EquipeWpp>
+                <EquipeEmail href={hrefEmail} target="_blank">Email</EquipeEmail>
             </Container>
             
         </CardContainer>

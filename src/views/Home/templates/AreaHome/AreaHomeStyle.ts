@@ -11,6 +11,25 @@ export const AreaHomeTitle = styled.h1`
     text-align: center;
     margin-left: 80px;
     font-size: 24px;
+
+    background: linear-gradient(90deg, black, transparent);
+    background-size: 200%;
+    animation: reveal both linear;
+    animation-timeline: view();
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+
+    @keyframes reveal {
+        from {
+            background-position-x: 200%;
+        }
+        to {
+            background-position-x: 0%;
+        }
+    }
 `;
 
 export const AreaHomeCardContainer = styled.div`
@@ -28,14 +47,15 @@ export const TodasAreas = styled.a`
     text-decoration: none;
     border-radius: 5px;
     background: #fff;
-    transition: 1s;
-    box-shadow: 6px 6px 0 var(--primary-color);
-    transform: skewX(-10deg);
+    transition: 0.5s;
+    box-shadow: 6px 6px 0 var(--terciary-color);
+    transform: skewX(-5deg);
 
     &:hover {
         color: #fff;
         background-color: var(--primary-color);
-        transition: 1.5s;
+        transition: 0.5s;
+        transform: scale(1.01);
     }
 
     &:focus {

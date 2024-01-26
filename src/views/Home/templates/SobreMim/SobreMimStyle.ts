@@ -15,7 +15,6 @@ export const SobreMimContainer = styled.div`
         flex-direction: column;
     }
 
-
 `;
 
 export const SobreMimImg = styled.img`
@@ -24,7 +23,6 @@ export const SobreMimImg = styled.img`
     @media (max-width: 1024px) {
         transform: scale(0.8);
     }
-    
 `;
 
 export const SobreMimTextGroup = styled.div`
@@ -38,21 +36,50 @@ export const SobreMimTextGroup = styled.div`
         padding: 5px;
         margin: 0px;
     }
-    
-    
 `;
 
 export const SobreMimText = styled.p`
     opacity: 0.7;
     font-weight: 600;
     padding: 4px 0;
+    animation: fade linear both;
+    animation-timeline: view();
+
 
     @media (max-width: 1024px) {
         font-size: 14px;
         padding: 4px;
     }
+
+    @keyframes fade {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+    }
 `;
 
 export const SobreMimTitle = styled.h1`
     font-weight: 600;
+    background: linear-gradient(90deg, black, transparent);
+    background-size: 200%;
+    animation: reveal both linear;
+    animation-timeline: view();
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+
+    @keyframes reveal {
+        0% {
+            background-position-x: 200%;
+        }
+        50% {
+            background-position-x: 0%;
+        }
+    }
+
 `;

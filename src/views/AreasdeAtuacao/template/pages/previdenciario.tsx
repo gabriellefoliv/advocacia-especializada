@@ -10,7 +10,17 @@ function Previdenciario() {
             <AreaPageExample 
                 ETitle="Direito Previdenciário" 
                 EImg={Previ} 
-                EText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                EText={[
+                    "  Fases Administrativas e Judiciais:\n",
+                    "✓ Aposentadorias;\n",
+                    "✓ Pensão por morte;\n",
+                    "✓ Auxílio-doença;\n",
+                    "✓ Salário-maternidade;\n",
+                    "✓ Salário-família;\n",
+                    "✓ Auxílio-acidente;\n",
+                    "✓ Auxílio-reclusão;\n",
+                    "✓ BPC/LOAS\n",
+                ]}
             />
             <ButtonHolder>
                 <WppButton/>

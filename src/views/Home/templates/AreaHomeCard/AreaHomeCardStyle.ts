@@ -15,12 +15,13 @@ export const AreaHomeCardDiv = styled.a`
     margin-bottom: 0px;
     margin-top: 30px;
     text-decoration: none;
+    transition: 0.3s;
 
     &:hover {
         box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.7);
         transition: 0.3s;
         /* transform: translate(2.5px, 0) rotate(2.5deg) scale(1.1); */
-        transform: scale(1.1);
+        transform: scale(1.01);
         
         &:before { transform: translate(-2.5px, 0) rotate(-2.5deg); }
         &:after { transform: translate(-5px, 0) rotate(-5deg); }

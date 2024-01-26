@@ -1,6 +1,7 @@
 import { useRef } from "react";
-import { ContactContainer, ContactSubtitle, ContactTextGroup, ContactTitle, FormContainer, StyledButton, StyledForm, StyledInput, StyledLabel, StyledTextarea } from "./ContatoStyle"
+import { ContactContainer, ContactImg, ContactSubtitle, ContactTextGroup, ContactTitle, FormContainer, StyledButton, StyledForm, StyledInput, StyledLabel, StyledTextarea, StyledTitle } from "./ContatoStyle"
 import emailjs from '@emailjs/browser';
+import ThamiOab from '../../img/oab.jpeg'
 
 // interface IProps {
 //     form: React.MutableRefObject<HTMLInputElement | null>
@@ -26,14 +27,16 @@ function Contato() {
     return (
         <>
             <ContactTextGroup>
-                <ContactTitle>VAMOS CONVERSAR?</ContactTitle>
+                <ContactTitle>Vamos conversar?</ContactTitle>
                 <ContactSubtitle>
                     Entre em contato com nosso escritório de advocacia 
                     e descubra como nossos advocados podem te ajudar!
                 </ContactSubtitle>
             </ContactTextGroup>
             <ContactContainer>
+                <ContactImg src={ThamiOab}/>
                 <FormContainer>
+                    <StyledTitle>Preencha o Formulário</StyledTitle>
                     <StyledForm ref={form} onSubmit={sendEmail}>
                         <StyledLabel>Nome</StyledLabel>
                         <StyledInput type="text" name="user_name" required/>

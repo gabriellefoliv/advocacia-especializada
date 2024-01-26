@@ -3,7 +3,7 @@ import { APContainer, APHeader, APImg, APSobre, APSobreContainer, APTitle } from
 interface ExampleProps {
     ETitle: string
     EImg: any
-    EText: string
+    EText: Array<string>
 }
 
 function AreaPageExample({ETitle, EImg, EText}:ExampleProps) {

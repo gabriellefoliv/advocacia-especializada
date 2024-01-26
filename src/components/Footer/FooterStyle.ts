@@ -84,4 +84,14 @@ export const CopyrightContainer = styled.div`
 
 export const CopyrightTitle = styled.p`
     color: #fff;
+
+    a {
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0.5;
+        }
+    }
 `;

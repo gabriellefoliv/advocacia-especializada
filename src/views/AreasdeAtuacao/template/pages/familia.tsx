@@ -8,9 +8,19 @@ function Familia() {
     return(
         <>
             <AreaPageExample 
-                ETitle="Direito de Família" 
+                ETitle="Direito de Família e Sucessões" 
                 EImg={FamiliaImg} 
-                EText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                EText={[
+                    "✓ Separações, divórcios e união estável;\n",
+                    "✓ Ações de alimentos;\n",
+                    "✓ Regulamentação de visitas;\n",
+                    "✓ Investigação de paternidade e anulatórias;\n",
+                    "✓ Guarda, adoção, curatela, interdições entre outros assuntos;\n",
+                    "✓ Separação e divórcio extrajudicial (Lei 11.441/07);\n",
+                    "✓ Planejamento sucessório (testamentos);\n",
+                    "✓ Inventários e testamentos, com partilha e transferência patrimonial;\n",
+                    "✓ Inventário consensual extrajudicial (Lei 11.441/07);\n",
+                ]}
             />
             <ButtonHolder>
                 <WppButton/>

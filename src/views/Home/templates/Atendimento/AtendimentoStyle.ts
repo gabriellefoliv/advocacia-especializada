@@ -16,4 +16,16 @@ export const AtendimentoText = styled.p`
     font-weight: 600;
     font-size: 20px;
     color: gray;
+
+    animation: fade linear both;
+    animation-timeline: view();
+
+    @keyframes fade {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
 `;
