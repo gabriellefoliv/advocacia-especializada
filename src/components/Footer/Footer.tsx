@@ -35,7 +35,7 @@ function Footer() {
             </FooterColumn>
         </FooterContainer>
         <CopyrightContainer>
-            <CopyrightTitle>Copyright © 2024 Todos os direitos reservados. Desenvolvido por <a href="https://gabriellefoliv.github.io/gabriellefoliv/">Gabrielle Oliveira</a>.</CopyrightTitle>
+            <CopyrightTitle>Copyright © 2024 Todos os direitos reservados. Desenvolvido por <a href="https://gabriellefoliv.github.io/gabriellefoliv/" target="_blank">Gabrielle Oliveira</a>.</CopyrightTitle>
         </CopyrightContainer>
         </>
     )
