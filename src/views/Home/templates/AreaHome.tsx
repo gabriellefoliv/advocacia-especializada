@@ -8,12 +8,12 @@ function AreaHome() {
             <h1 className="text-xl font-bold">Acesse uma de nossas áreas de atuação:</h1>
             <div className="flex flex-col">
                 <AreaHomeCard
-                    hrefHomeCard="/areasdeatuacao/trabalhista" 
+                    hrefHomeCard="/areasdeatuacao/familia" 
                     AreaHomeImg={Familia}
                     AreaHomeTitle="Direito de Família"
                 />
                 <AreaHomeCard
-                    hrefHomeCard="/areasdeatuacao/bancario"
+                    hrefHomeCard="/areasdeatuacao/criminal"
                     AreaHomeImg={Criminal}
                     AreaHomeTitle="Direito Criminal"
                 />
