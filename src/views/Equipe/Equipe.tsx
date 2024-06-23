@@ -12,7 +12,7 @@ function Equipe() {
                 title="Equipe"
                 subtitle="Entre em contato com um de nossos advogados"
             />
-            <div className="flex justify-center flex-wrap">
+            <div className="flex justify-center flex-wrap scale-75 md:scale-100">
                 <EquipeCard
                     Img={Th}
                     Nome="Thamiris Ferreira de Oliveira"

@@ -7,8 +7,8 @@ type HeaderProps = {
 
 export function Header({ title, subtitle }: HeaderProps) {
     return (
-        <div className='w-full md:h-96 flex justify-center'>
-            <img className='w-full size-fit' src={Wavy} />
+        <div className='relative md:h-96 flex justify-center'>
+            <img className='absolute w-full overflow-hidden bg-transparent bg-fixed' src={Wavy} />
             <div className='absolute md:-mt-8'>
                 <div className='flex py-6 px-1 md:py-8 md:p-12 justify-center items-center'>
                     <div className='text-white md:mt-10 md:p-20 text-center flex justify-center items-center flex-col'>

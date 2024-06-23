@@ -12,8 +12,8 @@ import Wavy from '../../img/wavy-bg/wave4.svg'
 function Home() {
     return (
         <>
-            <div className='w-full flex justify-center bg-red-950 md:bg-transparent'>
-                <img className='w-full size-fit' src={Wavy} />
+            <div className='relative md:h-96 flex justify-center'>
+                <img className='absolute w-full overflow-hidden bg-transparent bg-fixed' src={Wavy} />
                 <div className='absolute -mt-12'>
                     <div className='flex'>
                         <img className='md:w-full w-96 mt-6' src={AdvLogo} />

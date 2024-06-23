@@ -9,8 +9,8 @@ interface CardProps {
 
 function EquipeCard({Img, Nome, Atuacao, Telefone, hrefWpp}:CardProps) {
     return (
-        <div className="w-[300px] h-[450px] bg-white my-7 mx-16 rounded-lg shadow-xl transition duration-300 hover:transition hover:scale-105">
-            <img className="w-[250px] h-[250px] my-2 mx-5 rounded-lg object-cover py-2 px-5 shadow-xl" src={Img}/>
+        <div className=" bg-white my-7 mx-16 rounded-lg shadow-xl transition duration-300 hover:transition hover:scale-105 flex flex-col justify-center items-center">
+            <img className="w-[250px] h-[250px] my-2 mx-5 rounded-lg object-cover py-2 px-5" src={Img}/>
             <h3 className="text-center font-bold text-lg">{Nome}</h3>
             <div className="flex justify-center mt-1 py-2">
                 <p className="font-bold">Atuação: </p>
