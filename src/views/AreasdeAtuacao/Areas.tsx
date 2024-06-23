@@ -12,7 +12,7 @@ function Areas() {
                 subtitle="Dentre os serviços prestados pela Thamiris Ferreira Advocacia destacamos:"
             />
 
-            <div className="mt-24 flex justify-center items-center mx-10 flex-wrap">
+            <div className="mt-24 md:mt-10 flex justify-center items-center mx-10 flex-wrap">
                 <AreaCard
                     AChref="/areasdeatuacao/criminal"
                     ACTitle="Direito Criminal"
