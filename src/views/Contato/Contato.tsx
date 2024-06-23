@@ -25,7 +25,7 @@ function Contato() {
             <Header
                 title="Vamos conversar?"
                 subtitle="Entre em contato com nosso escritório de advocacia 
-                    e descubra como nossos advocados podem te ajudar!"
+                    e descubra como nossos advogados podem te ajudar!"
             />
 
             {/* // contact container */}
