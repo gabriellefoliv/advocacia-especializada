@@ -16,7 +16,7 @@ function Home() {
                 <img className='absolute w-full overflow-hidden bg-transparent bg-fixed' src={Wavy} />
                 <div className='absolute -mt-12'>
                     <div className='flex'>
-                        <img className='md:w-full w-96 mt-6' src={AdvLogo} />
+                        <img className='md:w-full w-96 -mt-4 md:mt-6 scale-50 md:scale-100' src={AdvLogo} />
                         <div className='hidden md:text-white md:p-24 md:text-center md:flex md:justify-center md:items-center md:flex-col'>
                             <h1 className='font-bold text-xl mb-3'>
                                 ADVOCACIA ESPECIALIZADA

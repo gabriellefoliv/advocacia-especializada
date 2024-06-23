@@ -11,7 +11,7 @@ function AreaPageExample({ ETitle, EImg, EText }: ExampleProps) {
   return (
     <>
       <Header title={ETitle} />
-      <div className="mx-8 md:mx-32 p-8 border-none flex flex-col md:flex-row shadow-xl">
+      <div className="mt-32 mx-8 md:mx-32 p-8 border-none flex flex-col md:flex-row shadow-xl">
         <img
           className="w-96 rounded-sm bg-cover py-2 px-5 flex justify-center"
           src={EImg}

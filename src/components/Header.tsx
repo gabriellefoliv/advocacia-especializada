@@ -11,7 +11,7 @@ export function Header({ title, subtitle }: HeaderProps) {
             <img className='absolute w-full overflow-hidden bg-transparent bg-fixed' src={Wavy} />
             <div className='absolute md:-mt-8'>
                 <div className='flex py-6 px-1 md:py-8 md:p-12 justify-center items-center'>
-                    <div className='text-white md:mt-10 md:p-20 text-center flex justify-center items-center flex-col'>
+                    <div className='text-white -mt-2 md:mt-10 md:p-20 text-center flex justify-center items-center flex-col'>
                         <h1 className='font-bold text-base md:text-4xl md:mb-4'>
                             {title}
                         </h1>

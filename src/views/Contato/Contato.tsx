@@ -29,7 +29,7 @@ function Contato() {
             />
 
             {/* // contact container */}
-            <div className="w-full flex flex-col-reverse justify-center items-center md:flex md:flex-row md:justify-center md:items-center">
+            <div className="mt-32 w-full flex flex-col-reverse justify-center items-center md:flex md:flex-row md:justify-center md:items-center">
                 <img className="w-96 flex mx-40 justify-center items-center" src={ThamiOab} />
                 <div className="w-96 md:w-40 flex-1 p-4 md:p-8 md:m-4 shadow-xl mb-8 md:mr-20">
                     <h1 className="font-bold text-xl text-center">Preencha o Formulário</h1>
