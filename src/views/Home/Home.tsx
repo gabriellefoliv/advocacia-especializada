@@ -12,7 +12,7 @@ import Wavy from '../../img/wavy-bg/wave4.svg'
 function Home() {
     return (
         <>
-            <div className='relative md:h-96 flex justify-center'>
+            <div className='relative md:h-96 flex justify-center bg-[#611C18] md:bg-transparent'>
                 <img className='absolute w-full overflow-hidden bg-transparent bg-fixed' src={Wavy} />
                 <div className='absolute -mt-12'>
                     <div className='flex'>

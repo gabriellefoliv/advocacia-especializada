@@ -2,7 +2,7 @@ import Img from '../../../img/sobreescritorio.jpeg'
 
 function SobreMim() {
     return(
-        <div className='mt-4 md:-mt-52 md:mx-20 md:p-10 flex md:flex-row flex-col justify-content items-center'>
+        <div className='mt-4  md:mx-20 md:p-10 flex md:flex-row flex-col justify-content items-center'>
             <img className='w-56 md:w-96' src={Img}/>
             <div className='m-8 p-0 md:m-12 md:p-10 flex flex-col text-justify'>
                 <h1 className='font-bold text-2xl'>Sobre o Escritório</h1>
