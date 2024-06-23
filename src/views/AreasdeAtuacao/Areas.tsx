@@ -1,7 +1,6 @@
-import { AreaButton, AreaCardContainerSup, AreaContainer, AreaSubTitle, AreaTextGroup, AreaTitle } from "./AreasStyle"
-import AreaCard from "./template/AreaCard/AreaCard"
+import AreaCard from "./templates/AreaCard/AreaCard"
 import Trabalho from '../../img/trabalhista.jpg'
-import WppButton from "../../components/WppButton/WppButton"
+import WppButton from "../../components/WppButton"
 import Militar from '../../img/militar.jpg'
 import Banco from '../../img/bancario.png'
 import DCivil from '../../img/direito_civil_foto.jpg'
@@ -9,15 +8,17 @@ import DConsumidor from '../../img/direito-consumidor.jpg'
 import DCriminal from '../../img/direitocriminal.jpg'
 import DFamilia from '../../img/direitodefamilia.jpg'
 import DPrevidenciario from '../../img/direitoprevidenciario.jpg'
+import { Header } from "../../components/Header"
 
 function Areas() {
     return (
-        <AreaContainer>
-            <AreaTextGroup>
-                <AreaTitle>Áreas de Atuação</AreaTitle>
-                <AreaSubTitle>Dentre os serviços prestados pela Thamiris Ferreira Advocacia destacamos:</AreaSubTitle>
-            </AreaTextGroup>
-            <AreaCardContainerSup>
+        <div>
+            <Header
+                title="Áreas de Atuação"
+                subtitle="Dentre os serviços prestados pela Thamiris Ferreira Advocacia destacamos:"
+            />
+
+            <div className="flex justify-center items-center mx-10 flex-wrap">
 
                 <AreaCard
                     AChref="/areasdeatuacao/trabalhista"
@@ -44,7 +45,7 @@ function Areas() {
                     ACTitle="Direito Criminal"
                     ACImg={DCriminal}
                 />
-        
+
                 <AreaCard
                     AChref="/areasdeatuacao/familia"
                     ACTitle="Direito de Família e Sucessões"
@@ -60,11 +61,11 @@ function Areas() {
                     ACTitle="Direito do Consumidor Bancário"
                     ACImg={Banco}
                 />
-            </AreaCardContainerSup>
-            <AreaButton>    
-                <WppButton/>
-            </AreaButton>
-        </AreaContainer>
+            </div>
+            <div>
+                <WppButton />
+            </div>
+        </div>
     )
 }
 

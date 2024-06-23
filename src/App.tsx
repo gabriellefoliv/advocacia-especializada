@@ -1,21 +1,15 @@
 import { BrowserRouter } from "react-router-dom"
-import Header from "./components/Header/Header"
-import { GlobalStyle } from "./components/styles/GlobalStyle"
-import Main from "./components/Main/Main"
-import Footer from "./components/Footer/Footer"
-
+import Navigation from "./components/Navigation"
+import Main from "./components/Main"
+import Footer from "./components/Footer"
 
 function App() {
-
   return (
-    <>
       <BrowserRouter>
-        <GlobalStyle/>
-        <Header/>
+        <Navigation />
         <Main/>
         <Footer/>
       </BrowserRouter>
-    </>
   )
 }
 

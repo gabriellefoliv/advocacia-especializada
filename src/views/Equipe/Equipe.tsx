@@ -1,18 +1,18 @@
-import { EquipeCardContainer, EquipeContainer, EquipeTextGroup, EquipeTitle, SubTitle } from "./EquipeStyle"
-import EquipeCard from "./template/EquipeCard"
+import EquipeCard from "./EquipeCard"
 import Th from '../../img/thamicomfundo.jpeg'
 import andre from '../../img/andre3.jpeg'
-import Aluguel from "../Home/templates/Aluguel/Aluguel"
+import Aluguel from "../Home/templates/Aluguel"
+import { Header } from "../../components/Header"
 
 
 function Equipe() {
     return (
-        <EquipeContainer>
-            <EquipeTextGroup>
-                <EquipeTitle>Equipe</EquipeTitle>
-                <SubTitle>Entre em contato com um de nossos advogados</SubTitle>
-            </EquipeTextGroup>
-            <EquipeCardContainer>
+        <div>
+            <Header 
+                title="Equipe"
+                subtitle="Entre em contato com um de nossos advogados"
+            />
+            <div className="flex justify-center flex-wrap">
                 <EquipeCard
                     Img={Th}
                     Nome="Thamiris Ferreira"
@@ -31,9 +31,9 @@ function Equipe() {
                     hrefEmail="mailto:andretavarescontato.adv@gmail.com"
                 />
                 
-            </EquipeCardContainer>
+            </div>
             <Aluguel/>
-        </EquipeContainer>
+        </div>
 
     )
 }

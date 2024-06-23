@@ -1,62 +1,54 @@
-import { AboutUs, Banner, HomeContainer, Hero, Text, Wrapper, LogoContainer, Logo, TextGroup, Buttons, LastContainer } from "./HomeStyle"
-// import Law from '../../img/thamifoto.png'
-import Law from '../../img/videos/ultima.mp4'
+// import Law from '../../img/videos/ultima.mp4'
 import AdvLogo from '../../img/advbold.png'
-import AreaHome from "./templates/AreaHome/AreaHome"
-import Atendimento from "./templates/Atendimento/Atendimento"
-import WppButton from "../../components/WppButton/WppButton"
-import { ButtonHolder } from "../AreasdeAtuacao/template/AreaPageExample/AreaPageExampleStyle"
-import SobreMim from "./templates/SobreMim/SobreMim"
-import Aluguel from "./templates/Aluguel/Aluguel"
+import AreaHome from "./templates/AreaHome.tsx"
+import Atendimento from "./templates/Atendimento.tsx"
+import WppButton from "../../components/WppButton"
+import SobreMim from "./templates/SobreMim.tsx"
+import Aluguel from "./templates/Aluguel.tsx"
+
+import Wavy from '../../img/wavy-bg/wave4.svg'
+
 
 function Home() {
     return (
         <>
-            <HomeContainer>
-                {/* <a href="https://storyset.com/people">People illustrations by Storyset</a> */}
-                <Wrapper>
-                    <Banner autoPlay loop playsInline muted>
-                        <source src={Law} type="video/mp4"/>
-                        
-                    </Banner>
+            <div className='w-full flex justify-center bg-red-950 md:bg-transparent'>
+                <img className='w-full size-fit' src={Wavy} />
+                <div className='absolute -mt-12'>
+                    <div className='flex'>
+                        <img className='md:w-full w-96 mt-6' src={AdvLogo} />
+                        <div className='hidden md:text-white md:p-24 md:text-center md:flex md:justify-center md:items-center md:flex-col'>
+                            <h1 className='font-bold text-xl mb-3'>
+                                ADVOCACIA ESPECIALIZADA
+                            </h1>
+                            <p className='text-base'>
+                                A nossa equipe é composta por profissionais altamente qualificados nos mais
+                                diversos rumos da Advocacia para desenvolverem estratégias eficazes para a
+                                solução dos seus problemas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-                    <Hero>
-                        <LogoContainer>
-                            <Logo src={AdvLogo} />
-                        </LogoContainer>
-                        <TextGroup>
-                            <Text>ADVOCACIA ESPECIALIZADA</Text>
-                            <AboutUs>
-                            A nossa equipe é composta por profissionais altamente qualificados nos mais 
-                            diversos rumos da Advocacia para desenvolverem estratégias eficazes para a 
-                            solução dos seus problemas.
-                            </AboutUs>
-                        <Buttons>
-                            <WppButton/>
-                        </Buttons>
-                        </TextGroup>
-                    </Hero>
-                </Wrapper>
-            </HomeContainer>
+            <SobreMim />
 
-            <SobreMim/>
+            <div>
+                <WppButton />
+            </div>
 
-            <ButtonHolder>
-                <WppButton/>
-            </ButtonHolder>
+            <div className='flex flex-col-reverse mb-10 md:flex md:flex-row md:items-center md:mt-20 md:mb-24'>
+                <AreaHome />
+                <Atendimento />
+            </div>
 
-            <LastContainer>
-                <AreaHome/>
-                <Atendimento/>
-            </LastContainer>
+            <div>
+                <WppButton />
+            </div>
 
-            <ButtonHolder>
-                <WppButton/>
-            </ButtonHolder>
+            <Aluguel />
 
-            <Aluguel/>
 
-        
         </>
     )
 }
