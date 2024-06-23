@@ -9,15 +9,13 @@ function Familia() {
                 ETitle="Direito de Família e Sucessões" 
                 EImg={FamiliaImg} 
                 EText={[
-                    "✓ Separações, divórcios e união estável;\n",
-                    "✓ Ações de alimentos;\n",
-                    "✓ Regulamentação de visitas;\n",
-                    "✓ Investigação de paternidade e anulatórias;\n",
-                    "✓ Guarda, adoção, curatela, interdições entre outros assuntos;\n",
-                    "✓ Separação e divórcio extrajudicial (Lei 11.441/07);\n",
-                    "✓ Planejamento sucessório (testamentos);\n",
-                    "✓ Inventários e testamentos, com partilha e transferência patrimonial;\n",
-                    "✓ Inventário consensual extrajudicial (Lei 11.441/07);\n",
+                    "✓ Pensão Alimentícia;\n",
+                    "✓ Divórcio;\n",
+                    "✓ Reconhecimento de paternidade;\n",
+                    "✓ Reconhecimento de União Estável;\n",
+                    "✓ Partilha de benss;\n",
+                    "✓ Alteração no regime de bens;\n",
+                    "✓ Guarda e convivência.\n",
                 ]}
             />
            

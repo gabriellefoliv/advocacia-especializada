@@ -9,17 +9,15 @@ function Criminal() {
                 ETitle="Direito Criminal " 
                 EImg={CriminalImg} 
                 EText={[
-                    "✓ Crimes contra a honra e a pessoa;\n",
-                    "✓ Defesa em Inquérito Policial;\n",
+                    "✓ Acompanhamento à delegacia;\n",
+                    "✓ Audiência de custódia;\n",
+                    "✓ Violência doméstica;\n",
                     "✓ Habeas Corpus;\n",
-                    "✓ Acompanhamento em Delegacia;\n",
-                    "✓ Maria da Penha;\n",
-                    "✓ Crimes contra o Patrimônio;\n",
-                    "✓ Crimes contra a Dignidade Sexual;\n",
-                    "✓ Pedido de Liberdade Provisória;\n",
-                    "✓ Estelionato;\n",
-                    "✓ Prisão Preventiva;\n",
-                    "✓ Crimes contra a Administração Pública.\n",
+                    "✓ Atendimento à presídios;\n",
+                    "✓ Inquérito policial militar;\n",
+                    "✓ Tribunal do júri;\n",
+                    "✓ Execução penal e recursos.\n",
+                    
                 ]}
             />
             

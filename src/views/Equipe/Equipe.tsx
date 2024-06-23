@@ -16,7 +16,7 @@ function Equipe() {
                 <EquipeCard
                     Img={Th}
                     Nome="Thamiris Ferreira"
-                    Atuacao="Direito Trabalhista"
+                    Atuacao="Família e Criminal"
                     Telefone="(21) 96972-7164" 
                     hrefWpp="https://wa.me/message/V72SURNAJ3EKD1"
                     hrefEmail="mailto:thamirisferreiraadv@gmail.com"
@@ -24,8 +24,8 @@ function Equipe() {
                 />
                 <EquipeCard
                     Img={andre}
-                    Nome="André Tavares"
-                    Atuacao="Auxiliar Jurídico"
+                    Nome="André Luiz Tavares"
+                    Atuacao="Criminal"
                     Telefone="(21) 98100-5704" 
                     hrefWpp="https://wa.me/message/FVYFWSIX3YQHB1"
                     hrefEmail="mailto:andretavarescontato.adv@gmail.com"

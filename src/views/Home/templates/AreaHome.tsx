@@ -1,7 +1,6 @@
 import AreaHomeCard from "./AreaHomeCard";
-import trabalhista from '../../../img/trabalhista.jpg'
-import bancario from '../../../img/bancario.png'
-import militar from '../../../img/militar.jpg'
+import Familia from '../../../img/direitodefamilia.jpg'
+import Criminal from '../../../img/direitocriminal.jpg'
 
 function AreaHome() {
     return (
@@ -10,19 +9,15 @@ function AreaHome() {
             <div className="flex flex-col">
                 <AreaHomeCard
                     hrefHomeCard="/areasdeatuacao/trabalhista" 
-                    AreaHomeImg={trabalhista}
-                    AreaHomeTitle="Direito do Trabalho"
+                    AreaHomeImg={Familia}
+                    AreaHomeTitle="Direito de Família"
                 />
                 <AreaHomeCard
                     hrefHomeCard="/areasdeatuacao/bancario"
-                    AreaHomeImg={bancario}
-                    AreaHomeTitle="Direito do Consumidor Bancário"
+                    AreaHomeImg={Criminal}
+                    AreaHomeTitle="Direito Criminal"
                 />
-                <AreaHomeCard
-                    hrefHomeCard="/areasdeatuacao/militar"
-                    AreaHomeImg={militar}
-                    AreaHomeTitle="Direito Militar"
-                />
+                
             <a className="p-4 mt-5 text-xl font-bold bg-white transition duration-500 shadow-xl hover:transition-transform hover:scale-110" href="/areasdeatuacao">Conheça todas as áreas</a>
             </div>
         </div>

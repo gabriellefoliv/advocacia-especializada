@@ -13,14 +13,8 @@ import {
 import {
   Bars3Icon,
   FingerPrintIcon,
-  SquaresPlusIcon,
   XMarkIcon,
-  BriefcaseIcon,
-  UsersIcon,
-  BanknotesIcon,
-  BuildingOffice2Icon,
-  BuildingStorefrontIcon,
-  FlagIcon
+  UsersIcon
 } from "@heroicons/react/24/outline";
 import { ChevronDownIcon, PlayCircleIcon } from "@heroicons/react/20/solid";
 
@@ -28,30 +22,6 @@ import Logo from "../img/balanca.png";
 import Wpp from "../img/whatsapp.png";
 
 const products = [
-  {
-    name: "Direito do Trabalho",
-    description: "Seus direitos no trabalho, protegidos",
-    href: "/areasdeatuacao/trabalhista",
-    icon: BriefcaseIcon,
-  },
-  {
-    name: "Direito Civil",
-    description: "Questões civis resolvidas com precisão",
-    href: "/areasdeatuacao/civel",
-    icon: BuildingOffice2Icon,
-  },
-  {
-    name: "Direito do Consumidor",
-    description: "Defesa eficaz dos seus direitos como consumidor",
-    href: "/areasdeatuacao/consumidor",
-    icon: BuildingStorefrontIcon,
-  },
-  {
-    name: "Direito Previdenciário",
-    description: "Segurança nos seus direitos previdenciários",
-    href: "/areasdeatuacao/previdenciario",
-    icon: SquaresPlusIcon,
-  },
   {
     name: "Direito Criminal",
     description: "Defesa legal com expertise",
@@ -63,18 +33,6 @@ const products = [
     description: "Assessoria familiar especializada",
     href: "/areasdeatuacao/familia",
     icon: UsersIcon,
-  },
-  {
-    name: "Direito Militar",
-    description: "Proteção jurídica na área militar",
-    href: "/areasdeatuacao/militar",
-    icon: FlagIcon,
-  },
-  {
-    name: "Direito do Consumidor Bancário",
-    description: "Soluções eficientes no direito bancário",
-    href: "/areasdeatuacao/consumidor",
-    icon: BanknotesIcon,
   },
 ];
 
@@ -95,7 +53,7 @@ export default function Navigation() {
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"
       >
-        <div className="flex lg:flex-1">
+        <div className="flex lg:flex-1 p-2">
           <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Thamiris Ferreira</span>
             <img className="h-8 w-auto" src={Logo} alt="" />
