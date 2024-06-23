@@ -13,7 +13,7 @@ function Familia() {
                     "✓ Divórcio;\n",
                     "✓ Reconhecimento de paternidade;\n",
                     "✓ Reconhecimento de União Estável;\n",
-                    "✓ Partilha de benss;\n",
+                    "✓ Partilha de bens;\n",
                     "✓ Alteração no regime de bens;\n",
                     "✓ Guarda e convivência.\n",
                 ]}
