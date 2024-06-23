@@ -5,12 +5,9 @@ function SobreMim() {
         <div className='mt-4 md:-mt-52 md:mx-20 md:p-10 flex md:flex-row flex-col justify-content items-center'>
             <img className='w-56 md:w-96' src={assinando}/>
             <div className='m-8 p-0 md:m-12 md:p-10 flex flex-col text-justify'>
-                <h1 className='font-bold text-2xl'>Quem sou eu?</h1>
-                <p className='opacity-70 font-bold py-2'>Eu me chamo Thamiris Ferreira de Oliveira, atualmente tenho 26 anos e sou advogada especializada em Família e Criminal.</p>
-                <p className='opacity-70 font-bold py-2'>Não sonhei ser Advogada, mas quando ingressei no curso de Direito me apaixonei por cada área. Ao longo da minha trajetória eu estagiei no Juizado Especial Cível, na Justiça Militar da União e em dois escritórios de Advocacia, que sem dúvidas foram os divisores de águas na minha carreira.</p>
-                <p className='opacity-70 font-bold py-2'>Durante os 5 anos tive dúvida sobre qual segmento eu me especializaria, e confesso que não gostei muito de Família no meu primeiro contato. </p>
-                <p className='opacity-70 font-bold py-2'>Mas como ocorre com a maioria das pessoas, o jogo virou e hoje é a área que eu mais tenho gosto de trabalhar, embora eu goste de quase todas. </p>
-                <p className='opacity-70 font-bold py-2'>Por fim, hoje eu não lido tão somente com os casos que chegam até mim, mas com as vidas das pessoas que confiam no meu trabalho.</p>
+                <h1 className='font-bold text-2xl'>Sobre o Escritório</h1>
+                <p className='opacity-70 font-bold py-2'>Com mais de 200 processos judiciais em andamento e já finalizados, o nosso escritório atua em todo território Brasileiro, tanto de forma presencial quanto de forma digital através de videoconferência, visando agilizar a resolução processual e garantir o conforto dos nossos clientes. Com uma trajetória excepcional e atuação em centenas de processos judiciais, diligências e serviços jurídicos,somos totalmente comprometidos com a transparência e agilidade, utilizando todos os recursos disponíveis para alcançar o melhor resultado para os nossos clientes.</p>
+                <p className='opacity-70 font-bold py-2'>Nossa equipe é formada por profissionais altamente qualificados e dedicados à constante atualizado, incorporação e melhoria no serviço oferecido com inovações tecnológicas, assegurando um atendimento eficiente e humanizado.</p>
             </div>
         </div>
     )

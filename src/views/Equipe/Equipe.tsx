@@ -15,7 +15,7 @@ function Equipe() {
             <div className="flex justify-center flex-wrap">
                 <EquipeCard
                     Img={Th}
-                    Nome="Thamiris Ferreira"
+                    Nome="Thamiris Ferreira de Oliveira"
                     Atuacao="Família e Criminal"
                     Telefone="(21) 96972-7164" 
                     hrefWpp="https://wa.me/message/V72SURNAJ3EKD1"
@@ -24,7 +24,7 @@ function Equipe() {
                 />
                 <EquipeCard
                     Img={andre}
-                    Nome="André Luiz Tavares"
+                    Nome="André Luiz Dias Tavares"
                     Atuacao="Criminal"
                     Telefone="(21) 98100-5704" 
                     hrefWpp="https://wa.me/message/FVYFWSIX3YQHB1"
