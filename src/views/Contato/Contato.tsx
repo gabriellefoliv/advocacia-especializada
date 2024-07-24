@@ -29,9 +29,9 @@ function Contato() {
             />
 
             {/* // contact container */}
-            <div className="mt-32 md:mt-10 w-full flex flex-col-reverse justify-center items-center md:flex md:flex-row md:justify-center md:items-center">
-                <img className="w-96 flex mx-40 justify-center items-center" src={ThamiOab} />
-                <div className="w-96 md:w-40 flex-1 p-4 md:p-8 md:m-4 shadow-xl mb-8 md:mr-20">
+            <div className="max-w-6xl mx-auto px-0 md:px-0 overflow-hidden mt-32 md:mt-10 w-full flex flex-col-reverse justify-center items-center md:flex md:flex-row md:justify-center md:items-center">
+                <img className="w-96 flex justify-center items-center" src={ThamiOab} />
+                <div className="w-96 md:w-40 flex-1 p-4 md:p-8 shadow-xl mb-8">
                     <h1 className="font-bold text-xl text-center">Preencha o Formulário</h1>
                     <form ref={form} onSubmit={sendEmail}>
                         <div className="sm:col-span-4">

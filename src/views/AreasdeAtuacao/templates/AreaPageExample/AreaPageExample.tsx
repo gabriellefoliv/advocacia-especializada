@@ -3,7 +3,7 @@ import WppButton from "../../../../components/WppButton";
 
 interface ExampleProps {
   ETitle: string;
-  EImg: any;
+  EImg: string;
   EText: Array<string>;
 }
 
@@ -11,7 +11,7 @@ function AreaPageExample({ ETitle, EImg, EText }: ExampleProps) {
   return (
     <>
       <Header title={ETitle} />
-      <div className="mt-32 md:mt-10 mx-8 md:mx-32 p-8 border-none flex flex-col md:flex-row shadow-xl">
+      <div className="max-w-6xl mx-auto px-0 md:px-0 overflow-hidden mt-32 md:mt-10 p-8 border-none flex flex-col md:flex-row shadow-xl">
         <img
           className="w-96 rounded-sm bg-cover py-2 px-5 flex justify-center"
           src={EImg}

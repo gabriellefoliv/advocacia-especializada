@@ -31,13 +31,16 @@ function Home() {
                 </div>
             </div>
 
+            <div className='max-w-6xl mx-auto px-0 md:px-0 overflow-hidden'>
+
+
             <SobreMim />
 
             <div>
                 <WppButton />
             </div>
 
-            <div className='flex flex-col-reverse mb-10 md:flex md:flex-row md:items-center md:mt-20 md:mb-24'>
+            <div className='w-full flex flex-col-reverse mb-10 md:flex md:flex-row md:items-center md:mt-20 md:mb-24 mx-6'>
                 <AreaHome />
                 <Atendimento />
             </div>
@@ -48,6 +51,7 @@ function Home() {
 
             <Aluguel />
 
+            </div>
 
         </>
     )

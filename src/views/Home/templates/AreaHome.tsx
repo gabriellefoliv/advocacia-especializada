@@ -4,9 +4,9 @@ import Criminal from '../../../img/direitocriminal.jpg'
 
 function AreaHome() {
     return (
-        <div className="w-full flex flex-col justify-center items-center m-2">
+        <div className="w-full flex flex-col justify-center items-center">
             <h1 className="text-lg md:text-xl font-bold">Acesse uma de nossas áreas de atuação:</h1>
-            <div className="flex flex-col">
+            <div className="w-full flex flex-col">
                 <AreaHomeCard
                     hrefHomeCard="/areasdeatuacao/familia" 
                     AreaHomeImg={Familia}

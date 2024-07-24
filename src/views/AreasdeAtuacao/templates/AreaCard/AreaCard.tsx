@@ -1,6 +1,6 @@
 
 interface AreaCardProps {
-    ACImg: any
+    ACImg: string
     ACTitle: string
     AChref: string
 }

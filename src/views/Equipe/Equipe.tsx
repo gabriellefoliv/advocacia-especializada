@@ -8,31 +8,34 @@ import { Header } from "../../components/Header"
 function Equipe() {
     return (
         <div>
-            <Header 
+            <Header
                 title="Equipe"
                 subtitle="Entre em contato com um de nossos advogados"
             />
-            <div className="flex justify-center flex-wrap scale-75 md:scale-100">
-                <EquipeCard
-                    Img={Th}
-                    Nome="Thamiris Ferreira de Oliveira"
-                    Atuacao="Família e Criminal"
-                    Telefone="(21) 96972-7164" 
-                    hrefWpp="https://wa.me/message/V72SURNAJ3EKD1"
-                    hrefEmail="mailto:thamirisferreiraadv@gmail.com"
-                    
-                />
-                <EquipeCard
-                    Img={andre}
-                    Nome="André Luiz Dias Tavares"
-                    Atuacao="Criminal"
-                    Telefone="(21) 98100-5704" 
-                    hrefWpp="https://wa.me/message/FVYFWSIX3YQHB1"
-                    hrefEmail="mailto:andretavarescontato.adv@gmail.com"
-                />
-                
+            <div className="max-w-6xl mx-auto px-0 md:px-0 overflow-hidden">
+
+                <div className="flex justify-center flex-wrap scale-75 md:scale-100">
+                    <EquipeCard
+                        Img={Th}
+                        Nome="Thamiris Ferreira de Oliveira"
+                        Atuacao="Família e Criminal"
+                        Telefone="(21) 96972-7164"
+                        hrefWpp="https://wa.me/message/V72SURNAJ3EKD1"
+                        hrefEmail="mailto:thamirisferreiraadv@gmail.com"
+
+                    />
+                    <EquipeCard
+                        Img={andre}
+                        Nome="André Luiz Dias Tavares"
+                        Atuacao="Criminal"
+                        Telefone="(21) 98100-5704"
+                        hrefWpp="https://wa.me/message/FVYFWSIX3YQHB1"
+                        hrefEmail="mailto:andretavarescontato.adv@gmail.com"
+                    />
+
+                </div>
+                <Aluguel />
             </div>
-            <Aluguel/>
         </div>
 
     )
